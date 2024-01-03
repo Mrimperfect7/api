@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2023-12-09 10:42 PM
+4.0.5 (0578)
+046a9b1 (08-Mar-2022 2:59:39 pm)
+-->
+<scene title="New Project" width="1080" height="1920" exportWidth="1080" exportHeight="1920" precompose="dynamicResolution" bgcolor="#ffd8d8d8" totalTime="10132" fps="30" modifiedTime="1702141972203" amver="578" ffver="105" am="com.alightcreative.motion/4.0.5" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://media/external/video/media/52109" filename="VID-20230117-WA0000.mp4" title="VID-20230117-WA0000.mp4" type="video/mp4" duration="10098000" size="2479265" fps="29.80" orientation="0" infoUpdated="1691581755038" width="1080" height="1920" />
+  <shape id="748389" label="VID-20230117-WA0000.mp4" startTime="0" endTime="10130" fillType="media" fillVideo="content://media/external/video/media/52109" outTime="10098" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+    </transform>
+    <property name="size" type="vec2" value="540.000000,960.000000" />
+  </shape>
+  <shape id="748390" label="Rectangle 1" startTime="0" endTime="10132" fillType="color" blending="subtract" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <fillColor value="#ff538e5c" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="0.365000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float" value="-1.000000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="748391" label="Rectangle 2" startTime="0" endTime="10132" fillType="color" blending="overlay" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000,0.000000" />
+      <scale value="9.600000,9.600000" />
+    </transform>
+    <property name="size" type="vec2" value="-4886.354492,100.000000" />
+  </shape>
+</scene>
